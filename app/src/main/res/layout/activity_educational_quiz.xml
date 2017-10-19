@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.educationalquiz.educationalQuiz">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="400dp"
+            android:layout_height="695dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="7dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:orientation="vertical"
+                android:paddingTop="15dp"
+                android:text="Quiz Time!" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:padding="5dp"
+                android:text="Question 1: What year did Columbus sail the ocean blue?"
+                android:id="@+id/columbusQ">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/answer1492"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Answer"
+                android:inputType="text"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:padding="5dp"
+                android:text="Question 2: What is 1+1?"
+                android:id = "@+id/math1Q">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/answer2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Answer"
+                android:inputType="text"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:padding="5dp"
+                android:text="Question 3: What is the biggest country on Earth?"
+                android:id = "@+id/russiaQ">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/answerRussia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Answer"
+                android:inputType="text"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:padding="5dp"
+                android:text="Question 4: What element has only one proton?"
+                android:id = "@+id/hydrogenQ">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/answerHydrogen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Answer"
+                android:inputType="text"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:padding="5dp"
+                android:text="Question 5: What is Killian's last name?"
+                android:id ="@+id/stacyQ">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/answerStacy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Answer"
+                android:inputType="text"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:padding="5dp"
+                android:text="Question 6: What is 8/2?"
+                android:id = "@+id/math2Q">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/answer4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Answer"
+                android:inputType="text"
+                android:textSize="15dp" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="Done"
+                android:onClick="done"
+                android:id ="@+id/doneB"/>
+        </LinearLayout>
+   </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
